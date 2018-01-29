@@ -1,0 +1,26 @@
+/*
+  u-basscss, github.com/tiffon/u-basscss
+  fork from http://basscss.com
+  MIT License
+*/
+
+.ub-relative { position: relative }
+.ub-absolute { position: absolute }
+.ub-fixed    { position: fixed }
+
+.ub-top-0    { top: 0 }
+.ub-right-0  { right: 0 }
+.ub-bottom-0 { bottom: 0 }
+.ub-left-0   { left: 0 }
+
+.ub-z1 { z-index: var(--z1) }
+.ub-z2 { z-index: var(--z2) }
+.ub-z3 { z-index: var(--z3) }
+.ub-z4 { z-index: var(--z4) }
+
+:root {
+  --z1: 1;
+  --z2: 2;
+  --z3: 3;
+  --z4: 4;
+}

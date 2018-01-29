@@ -4,7 +4,7 @@
   MIT License
 */
 
-.u-hide {
+.ub-hide {
   position: absolute !important;
   height: 1px;
   width: 1px;
@@ -13,22 +13,22 @@
 }
 
 @media (--breakpoint-xs) {
-  .u-xs-hide { display: none !important }
+  .ub-xs-hide { display: none !important }
 }
 
 @media (--breakpoint-sm-md) {
-  .u-sm-hide { display: none !important }
+  .ub-sm-hide { display: none !important }
 }
 
 @media (--breakpoint-md-lg) {
-  .u-md-hide { display: none !important }
+  .ub-md-hide { display: none !important }
 }
 
 @media (--breakpoint-lg) {
-  .u-lg-hide { display: none !important }
+  .ub-lg-hide { display: none !important }
 }
 
-.u-display-none { display: none !important }
+.ub-display-none { display: none !important }
 
 @custom-media --breakpoint-xs (max-width: 40em);
 @custom-media --breakpoint-sm-md (min-width: 40em) and (max-width: 52em);

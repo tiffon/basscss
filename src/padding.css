@@ -1,0 +1,52 @@
+/*
+  u-basscss, github.com/tiffon/u-basscss
+  fork from http://basscss.com
+  MIT License
+*/
+
+.ub-p0  { padding: 0 }
+.ub-pt0 { padding-top: 0 }
+.ub-pr0 { padding-right: 0 }
+.ub-pb0 { padding-bottom: 0 }
+.ub-pl0 { padding-left: 0 }
+.ub-px0 { padding-left: 0; padding-right:  0 }
+.ub-py0 { padding-top: 0;  padding-bottom: 0 }
+
+.ub-p1  { padding:        var(--space-1) }
+.ub-pt1 { padding-top:    var(--space-1) }
+.ub-pr1 { padding-right:  var(--space-1) }
+.ub-pb1 { padding-bottom: var(--space-1) }
+.ub-pl1 { padding-left:   var(--space-1) }
+.ub-py1 { padding-top:    var(--space-1); padding-bottom: var(--space-1) }
+.ub-px1 { padding-left:   var(--space-1); padding-right:  var(--space-1) }
+
+.ub-p2  { padding:        var(--space-2) }
+.ub-pt2 { padding-top:    var(--space-2) }
+.ub-pr2 { padding-right:  var(--space-2) }
+.ub-pb2 { padding-bottom: var(--space-2) }
+.ub-pl2 { padding-left:   var(--space-2) }
+.ub-py2 { padding-top:    var(--space-2); padding-bottom: var(--space-2) }
+.ub-px2 { padding-left:   var(--space-2); padding-right:  var(--space-2) }
+
+.ub-p3  { padding:        var(--space-3) }
+.ub-pt3 { padding-top:    var(--space-3) }
+.ub-pr3 { padding-right:  var(--space-3) }
+.ub-pb3 { padding-bottom: var(--space-3) }
+.ub-pl3 { padding-left:   var(--space-3) }
+.ub-py3 { padding-top:    var(--space-3); padding-bottom: var(--space-3) }
+.ub-px3 { padding-left:   var(--space-3); padding-right:  var(--space-3) }
+
+.ub-p4  { padding:        var(--space-4) }
+.ub-pt4 { padding-top:    var(--space-4) }
+.ub-pr4 { padding-right:  var(--space-4) }
+.ub-pb4 { padding-bottom: var(--space-4) }
+.ub-pl4 { padding-left:   var(--space-4) }
+.ub-py4 { padding-top:    var(--space-4); padding-bottom: var(--space-4) }
+.ub-px4 { padding-left:   var(--space-4); padding-right:  var(--space-4) }
+
+:root {
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: 1rem;
+  --space-4: 2rem;
+}

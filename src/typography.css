@@ -1,0 +1,53 @@
+/*
+  u-basscss, github.com/tiffon/u-basscss
+  fork from http://basscss.com
+  MIT License
+*/
+
+.ub-font-family-inherit { font-family: inherit }
+.ub-font-size-inherit { font-size: inherit }
+.ub-text-decoration-none { text-decoration: none }
+
+.ub-bold    { font-weight: var(--bold-font-weight, bold) }
+.ub-regular { font-weight: normal }
+.ub-italic  { font-style: italic }
+.ub-caps    { text-transform: uppercase; letter-spacing: var(--caps-letter-spacing); }
+
+.ub-tx-left-align   { text-align: left }
+.ub-tx-center       { text-align: center }
+.ub-tx-right-align  { text-align: right }
+.ub-tx-justify      { text-align: justify }
+
+.ub-nowrap { white-space: nowrap }
+.ub-break-word { word-wrap: break-word }
+
+.ub-line-height-noraml { line-height: normal }
+.ub-line-height-1      { line-height: var(--line-height-1) }
+.ub-line-height-2      { line-height: var(--line-height-2) }
+.ub-line-height-3      { line-height: var(--line-height-3) }
+.ub-line-height-4      { line-height: var(--line-height-4) }
+
+.ub-list-style-none { list-style: none }
+.ub-underline { text-decoration: underline }
+
+.ub-truncate {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ub-list-reset {
+  list-style: none;
+  padding-left: 0;
+}
+
+:root {
+  --line-height-1: 1;
+  --line-height-2: 1.125;
+  --line-height-3: 1.25;
+  --line-height-4: 1.5;
+  --letter-spacing: 1;
+  --caps-letter-spacing: .2em;
+  --bold-font-weight: bold;
+}

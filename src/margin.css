@@ -1,0 +1,61 @@
+/*
+  u-basscss, github.com/tiffon/u-basscss
+  fork from http://basscss.com
+  MIT License
+*/
+
+.ub-m0  { margin:        0 }
+.ub-mt0 { margin-top:    0 }
+.ub-mr0 { margin-right:  0 }
+.ub-mb0 { margin-bottom: 0 }
+.ub-ml0 { margin-left:   0 }
+.ub-mx0 { margin-left:   0; margin-right:  0 }
+.ub-my0 { margin-top:    0; margin-bottom: 0 }
+
+.ub-m1  { margin:        var(--space-1) }
+.ub-mt1 { margin-top:    var(--space-1) }
+.ub-mr1 { margin-right:  var(--space-1) }
+.ub-mb1 { margin-bottom: var(--space-1) }
+.ub-ml1 { margin-left:   var(--space-1) }
+.ub-mx1 { margin-left:   var(--space-1); margin-right:  var(--space-1) }
+.ub-my1 { margin-top:    var(--space-1); margin-bottom: var(--space-1) }
+
+.ub-m2  { margin:        var(--space-2) }
+.ub-mt2 { margin-top:    var(--space-2) }
+.ub-mr2 { margin-right:  var(--space-2) }
+.ub-mb2 { margin-bottom: var(--space-2) }
+.ub-ml2 { margin-left:   var(--space-2) }
+.ub-mx2 { margin-left:   var(--space-2); margin-right:  var(--space-2) }
+.ub-my2 { margin-top:    var(--space-2); margin-bottom: var(--space-2) }
+
+.ub-m3  { margin:        var(--space-3) }
+.ub-mt3 { margin-top:    var(--space-3) }
+.ub-mr3 { margin-right:  var(--space-3) }
+.ub-mb3 { margin-bottom: var(--space-3) }
+.ub-ml3 { margin-left:   var(--space-3) }
+.ub-mx3 { margin-left:   var(--space-3); margin-right:  var(--space-3) }
+.ub-my3 { margin-top:    var(--space-3); margin-bottom: var(--space-3) }
+
+.ub-m4  { margin:        var(--space-4) }
+.ub-mt4 { margin-top:    var(--space-4) }
+.ub-mr4 { margin-right:  var(--space-4) }
+.ub-mb4 { margin-bottom: var(--space-4) }
+.ub-ml4 { margin-left:   var(--space-4) }
+.ub-mx4 { margin-left:   var(--space-4); margin-right:  var(--space-4) }
+.ub-my4 { margin-top:    var(--space-4); margin-bottom: var(--space-4) }
+
+.ub-mxn1 { margin-left: -var(--space-1); margin-right: -var(--space-1); }
+.ub-mxn2 { margin-left: -var(--space-2); margin-right: -var(--space-2); }
+.ub-mxn3 { margin-left: -var(--space-3); margin-right: -var(--space-3); }
+.ub-mxn4 { margin-left: -var(--space-4); margin-right: -var(--space-4); }
+
+.ub-ml-auto { margin-left: auto }
+.ub-mr-auto { margin-right: auto }
+.ub-mx-auto { margin-left: auto; margin-right: auto; }
+
+:root {
+  --space-1: .25rem;
+  --space-2: .5rem;
+  --space-3: 1rem;
+  --space-4: 2rem;
+}

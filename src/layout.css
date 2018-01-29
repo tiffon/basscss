@@ -1,0 +1,41 @@
+/*
+  u-basscss, github.com/tiffon/u-basscss
+  fork from http://basscss.com
+  MIT License
+*/
+
+.ub-inline       { display: inline }
+.ub-block        { display: block }
+.ub-inline-block { display: inline-block }
+.ub-table        { display: table }
+.ub-table-cell   { display: table-cell }
+
+.ub-overflow-hidden { overflow: hidden }
+.ub-overflow-scroll { overflow: scroll }
+.ub-overflow-auto   { overflow: auto }
+
+.ub-clearfix:before,
+.ub-clearfix:after {
+  content: " ";
+  display: table
+}
+.ub-clearfix:after { clear: both }
+
+.ub-left  { float: left }
+.ub-right { float: right }
+
+.ub-fit { max-width: 100% }
+
+.ub-max-width-1 { max-width: var(--width-1) }
+.ub-max-width-2 { max-width: var(--width-2) }
+.ub-max-width-3 { max-width: var(--width-3) }
+.ub-max-width-4 { max-width: var(--width-4) }
+
+.ub-border-box { box-sizing: border-box }
+
+:root {
+  --width-1: 24rem;
+  --width-2: 32rem;
+  --width-3: 48rem;
+  --width-4: 64rem;
+}

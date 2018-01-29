@@ -1,0 +1,10 @@
+/*
+  u-basscss, github.com/tiffon/u-basscss
+  fork from http://basscss.com
+  MIT License
+*/
+
+.ub-align-baseline { vertical-align: baseline }
+.ub-align-top      { vertical-align: top }
+.ub-align-middle   { vertical-align: middle }
+.ub-align-bottom   { vertical-align: bottom }

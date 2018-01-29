@@ -1,6 +1,6 @@
 {
   "name": "u-basscss",
-  "version": "0.0.0",
+  "version": "2.0.0",
   "description": "Low-level CSS toolkit derived from basscss",
   "style": "css/u-basscss.css",
   "scripts": {

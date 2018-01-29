@@ -1,0 +1,49 @@
+/*
+  u-basscss, github.com/tiffon/u-basscss
+  fork from http://basscss.com
+  MIT License
+*/
+
+/* Basscss Border */
+
+.ub-border {
+  border-style: solid;
+  border-width: var(--border-width);
+}
+
+.ub-border-top {
+  border-top-style: solid;
+  border-top-width: var(--border-width);
+}
+
+.ub-border-right {
+  border-right-style: solid;
+  border-right-width: var(--border-width);
+}
+
+.ub-border-bottom {
+  border-bottom-style: solid;
+  border-bottom-width: var(--border-width);
+}
+
+.ub-border-left {
+  border-left-style: solid;
+  border-left-width: var(--border-width);
+}
+
+.ub-border-none { border: 0 }
+
+.ub-rounded { border-radius: var(--border-radius) }
+.ub-circle  { border-radius: 50% }
+
+.ub-rounded-top    { border-radius: var(--border-radius) var(--border-radius) 0 0 }
+.ub-rounded-right  { border-radius: 0 var(--border-radius) var(--border-radius) 0 }
+.ub-rounded-bottom { border-radius: 0 0 var(--border-radius) var(--border-radius) }
+.ub-rounded-left   { border-radius: var(--border-radius) 0 0 var(--border-radius) }
+
+.ub-not-rounded { border-radius: 0 }
+
+:root {
+  --border-width: 1px;
+  --border-radius: 3px;
+}
