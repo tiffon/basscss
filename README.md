@@ -8,7 +8,7 @@ Forked from [basscss](https://github.com/basscss/basscss)
 - All class names have `u-` prepended (i.e. `u` for util)
 - Multiple modules are compiled and can be imported (e.g. `import 'u-basscss/css/u-layout.css';`)
 - Margin and padding start at `0.25rem` instead of `0.5rem`
-- The minified, custom-prop and important builds are no longer generated
+- The custom-prop build has been removed
 
 ## Typography Module Changes
 
