@@ -1,3 +1,31 @@
+# u-basscss
+
+Forked from [basscss](https://github.com/basscss/basscss)
+
+## Global Changes
+
+- All resources are local to this package (in `./src`), rather than in sub-packages
+- All class names have `u-` prepended (i.e. `u` for util)
+- Multiple modules are compiled and can be imported (e.g. `import 'u-basscss/css/u-layout.css';`)
+- Margin and padding start at `0.25rem` instead of `0.5rem`
+- The minified, custom-prop and important builds are no longer generated
+
+## Typography Module Changes
+
+Renamed text alignment classes:
+
+- `.u-left-align` => `.u-tx-left-align`
+- `.u-center` => `.u-tx-center`
+- `.u-right-align` => `.u-tx-right-align`
+- `.u-justify` => `.u-tx-justify`
+
+Added the following class:
+
+- `.u-line-height-noraml { line-height: normal }`
+
+
+--------
+
 # Basscss
 
 Low-level CSS toolkit <http://basscss.com>
